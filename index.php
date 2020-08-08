@@ -1,15 +1,7 @@
 <?php
-	if (preg_match('^https?://(([a-z0-9-]+)\.)*awesomebible\.de/', $_SERVER['HTTP_REFERER']))
-	{
-	  go();
-	}
-	else
-	{
-	  header("Location: https://bible.com/de/verse-of-the-day/");
-	  exit();
-	}
+	require_once 'ImageCache.php';
+	$imagecache = new ImageCache();
 
-	function go(){
 	$DayOfYear = date('z') + 1;
 		function getUrlMimeType($url) {
 			$buffer = file_get_contents($url);
@@ -38,7 +30,6 @@
 		
 		echo "Sorry, my creator forbid me to do this.";
 		echo "Error: $DayOfYear";
-	}
 	/*
 	function getIP() {
 		$ip = '';
