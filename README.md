@@ -4,4 +4,4 @@
 ### [Installation](https://github.com/awesomebible/verse/blob/master/HOSTING.DE.md)
 
 ### Vorschau
-![](https://verse.awesomebible.de)
+![awesomeBible Verse Image](https://verse.awesomebible.de "Image by awesomebible.de")
