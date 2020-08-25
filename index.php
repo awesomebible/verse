@@ -1,7 +1,4 @@
 <?php
-	require_once 'ImageCache.php';
-	$imagecache = new ImageCache();
-
 	$DayOfYear = date('z') + 1;
 		function getUrlMimeType($url) {
 			$buffer = file_get_contents($url);
@@ -28,8 +25,7 @@
 			}
 		} 
 		
-		echo "Sorry, my creator forbid me to do this.";
-		echo "Error: $DayOfYear";
+		echo "Sorry, but my creator forbid me to do that."
 	/*
 	function getIP() {
 		$ip = '';
