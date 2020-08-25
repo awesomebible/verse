@@ -1,51 +1,54 @@
 <?php
-// Config
-$verseLocation = "/web/verse.awesomebible.de/" // with trailing slash
-
-date_default_timezone_set('Europe/Berlin'); // Change this to your own timezone
-$current_date = date('H:i:s - d/m/Y');
-$mimetypes = ['image/png','image/jpg','image/jpeg','image/gif','video/mp4'];
-
-$url = htmlentities("https://raw.githubusercontent.com/awesomebible/verse/master/img/$DayOfYear.jpg");
-
-// if a valid MIME type exists, display the image
-// by sending appropriate headers and streaming the file
-/* foreach($mimetypes as $mimetype) {
-	if ($mime == $mimetype){
-		header('Content-type: '.$mime.';');
-		header('Cache-Control: max-age 86400');
-		if(isset($url)){
-			echo file_get_contents($url);
-			die;
+	$DayOfYear = date('z') + 1;
+		function getUrlMimeType($url) {
+			$buffer = file_get_contents($url);
+			$finfo = new finfo(FILEINFO_MIME_TYPE);
+			return $finfo->buffer($buffer);
 		}
+		date_default_timezone_set('Europe/Berlin'); // Change this to your own timezone
+		$current_date = date('H:i:s - d/m/Y');
+		$mimetypes = ['image/png','image/jpg','image/jpeg','image/gif','video/mp4'];
+		
+		$url = htmlentities("https://raw.githubusercontent.com/awesomebible/verse/master/img/$DayOfYear.jpg");
+		$mime = getUrlMimeType($url);
+		
+		// if a valid MIME type exists, display the image
+		// by sending appropriate headers and streaming the file
+		foreach($mimetypes as $mimetype) {
+			if ($mime == $mimetype){
+				header('Content-type: '.$mime.';');
+				header('Cache-Control: max-age 86400');
+				if(isset($url)){
+					echo file_get_contents($url);
+					die;
+				}
+			}
+		} 
+		
+		echo "Sorry, but my creator forbid me to do that."
+	/*
+	function getIP() {
+		$ip = '';
+		// Precedence: if set, X-Forwarded-For > HTTP_X_FORWARDED_FOR > HTTP_CLIENT_IP > HTTP_VIA > REMOTE_ADDR
+		$headers = array( 'X-Forwarded-For', 'HTTP_X_FORWARDED_FOR', 'HTTP_CLIENT_IP', 'HTTP_VIA', 'CF-Connecting-IP', 'REMOTE_ADDR' );
+		foreach( $headers as $header ) {
+			if ( !empty( $_SERVER[ $header ] ) ) {
+				$ip = $_SERVER[ $header ];
+				break;
+			}
+		}
+		
+		// headers can contain multiple IPs (X-Forwarded-For = client, proxy1, proxy2). Take first one.
+		if ( strpos( $ip, ',' ) !== false )
+			$ip = substr( $ip, 0, strpos( $ip, ',' ) );
+		
+		return $ip;
 	}
-} */
-
-echo "Sorry, but my creator forbid me to do that."
-
-
-$DayOfYear = date('z') + 1;
-if(file_get_contents($verseLocation . "cachedDate.txt") == $DayOfYear){
-	header('Content-type: image/jpg;');
-	header('Cache-Control: max-age 86400');
-		echo file_get_contents($verseLocation . "CachedImage.jpg");
-		die;
-}else{
-
-	// Image path
-	$img = $verseLocation.'CachedImage.jpg';
-
-	// Save image 
-	file_put_contents($img, file_get_contents($url));
-
-	// Update cachetime
-	$myfile = fopen($verseLocation."CachedDate.txt", "w") or die("Unable to process request. Error: Can't open file.");
-	fwrite($myfile, $DayOfYear);
-	fclose($myfile);
-
-	header('Content-type: image/jpg;');
-	header('Cache-Control: max-age 86400');
-		echo file_get_contents($verseLocation . "CachedImage.jpg");
-		die;
-}
+	$ip = getIP();
+	$handle = fopen("ips.txt", "a+");
+	fwrite($handle, $ip . "   |   " . $current_date);
+	fwrite($handle, "   |   " . $mime);
+	fwrite($handle, "\n");
+	fclose($handle);
+	*/
 ?>
