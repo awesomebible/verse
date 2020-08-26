@@ -1,8 +1,8 @@
 <?php
 	$DayOfYear = date('z') + 1;
-	$cacheRefFilePath = "cacheFile.txt";
-	$cacheRef = file_get_contents("cacheFile.txt");
-	$cachedImage = file_get_contents("cachedImage.jpg");
+	$cacheRefFilePath = "cacheFile.txt"; // Edit this to the exact file path for your install of verse + "cacheFile.txt"
+	$cacheRef = file_get_contents("cacheFile.txt"); // Edit this to the exact file path for your install of verse + "cacheFile.txt"
+	$cachedImage = file_get_contents("cachedImage.jpg"); // Edit this to the exact file path for your install of verse + "cachedImage.jpg"
 
 		if($cacheRef == $DayOfYear){
 			// If cache is fresh
@@ -12,7 +12,7 @@
 			die;
 		}else{
 			// If cache is stale
-			copy('https://raw.githubusercontent.com/awesomebible/verse/master/img/'.$DayOfYear.'.jpg', 'cachedImage.jpg');
+			copy('https://raw.githubusercontent.com/awesomebible/verse/master/img/'.$DayOfYear.'.jpg', $cacheRefFilePath);
 
 			header('Content-type: image/jpg;');
 			header('Cache-Control: max-age 86400');
