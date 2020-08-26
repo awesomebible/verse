@@ -23,7 +23,7 @@
 			fwrite($myfile, $txt);
 			fclose($myfile);
 			die;
-		}
+		};
 		
 		echo "Sorry, but my creator forbid me to do that."
 ?>
