@@ -1,54 +1,29 @@
 <?php
 	$DayOfYear = date('z') + 1;
-		function getUrlMimeType($url) {
-			$buffer = file_get_contents($url);
-			$finfo = new finfo(FILEINFO_MIME_TYPE);
-			return $finfo->buffer($buffer);
+	$cacheRefFilePath = "cacheFile.txt";
+	$cacheRef = file_get_contents("cacheFile.txt");
+	$cachedImage = file_get_contents("cachedImage.jpg");
+
+		if($cacheRef == $DayOfYear){
+			// If cache is fresh
+			header('Content-type: image/jpg;');
+			header('Cache-Control: max-age 86400');
+			echo $cachedImage;
+			die;
+		}else{
+			// If cache is stale
+			copy('https://raw.githubusercontent.com/awesomebible/verse/master/img/'.$DayOfYear.'.jpg', 'cachedImage.jpg');
+
+			header('Content-type: image/jpg;');
+			header('Cache-Control: max-age 86400');
+			echo $cachedImage;
+
+			$myfile = fopen($cacheRefFilePath, "w") or die("Unable to open file!");
+			$txt = "".$DayOfYear."\n";
+			fwrite($myfile, $txt);
+			fclose($myfile);
+			die;
 		}
-		date_default_timezone_set('Europe/Berlin'); // Change this to your own timezone
-		$current_date = date('H:i:s - d/m/Y');
-		$mimetypes = ['image/png','image/jpg','image/jpeg','image/gif','video/mp4'];
-		
-		$url = htmlentities("https://raw.githubusercontent.com/awesomebible/verse/master/img/$DayOfYear.jpg");
-		$mime = getUrlMimeType($url);
-		
-		// if a valid MIME type exists, display the image
-		// by sending appropriate headers and streaming the file
-		foreach($mimetypes as $mimetype) {
-			if ($mime == $mimetype){
-				header('Content-type: '.$mime.';');
-				header('Cache-Control: max-age 86400');
-				if(isset($url)){
-					echo file_get_contents($url);
-					die;
-				}
-			}
-		} 
 		
 		echo "Sorry, but my creator forbid me to do that."
-	/*
-	function getIP() {
-		$ip = '';
-		// Precedence: if set, X-Forwarded-For > HTTP_X_FORWARDED_FOR > HTTP_CLIENT_IP > HTTP_VIA > REMOTE_ADDR
-		$headers = array( 'X-Forwarded-For', 'HTTP_X_FORWARDED_FOR', 'HTTP_CLIENT_IP', 'HTTP_VIA', 'CF-Connecting-IP', 'REMOTE_ADDR' );
-		foreach( $headers as $header ) {
-			if ( !empty( $_SERVER[ $header ] ) ) {
-				$ip = $_SERVER[ $header ];
-				break;
-			}
-		}
-		
-		// headers can contain multiple IPs (X-Forwarded-For = client, proxy1, proxy2). Take first one.
-		if ( strpos( $ip, ',' ) !== false )
-			$ip = substr( $ip, 0, strpos( $ip, ',' ) );
-		
-		return $ip;
-	}
-	$ip = getIP();
-	$handle = fopen("ips.txt", "a+");
-	fwrite($handle, $ip . "   |   " . $current_date);
-	fwrite($handle, "   |   " . $mime);
-	fwrite($handle, "\n");
-	fclose($handle);
-	*/
 ?>
