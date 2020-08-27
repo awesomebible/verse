@@ -3,16 +3,6 @@
 	$cacheRef = "cacheFile.txt"; // Edit this to the exact file path for your install of verse + "cacheFile.txt"
 	$cachedImage = "cachedImage.jpg"; // Edit this to the exact file path for your install of verse + "cachedImage.jpg"
 
-	if ( isset($_GET['i']) ) {
-		$imageId = $_GET['i'];
-		$reqImageURL = "https://raw.githubusercontent.com/awesomebible/verse/master/img/".$imageId.".jpg";
-		header('Content-type: image/jpg;');
-		header('Cache-Control: max-age 86400');
-
-		echo file_get_contents($reqImageURL);
-		die;
-	}
-
 		if(file_get_contents($cacheRef) == $DayOfYear){
 			// If cache is fresh
 			header('Content-type: image/jpg;');
