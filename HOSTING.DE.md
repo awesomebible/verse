@@ -18,9 +18,9 @@ Ansonsten einfach in einen seperaten Ordner. Wenn auf deinedomain.de/ z.B. eine 
 
 ## Browser.js
 ### Anleitung
-1. Füge das Browser.js Skript in deine Website ein. Dazu kannst du diese URL benutzen: [https://cdn.jsdelivr.net/gh/awesomebible/verse@f9f6ca7e9ea48b5f69ae012e0a60f6c19494a7f1/browser.js](https://cdn.jsdelivr.net/gh/awesomebible/verse@f9f6ca7e9ea48b5f69ae012e0a60f6c19494a7f1/browser.js)
+1. Füge das Browser.js Skript in deine Website ein. Dazu kannst du diese URL benutzen: [https://cdn.jsdelivr.net/gh/awesomebible/verse@6ab6f6e36583be9e098abb4e3df23dc34d2b393f/browser.js](https://cdn.jsdelivr.net/gh/awesomebible/verse@6ab6f6e36583be9e098abb4e3df23dc34d2b393f/browser.js)
 
-`<script defer src="https://cdn.jsdelivr.net/gh/awesomebible/verse@f9f6ca7e9ea48b5f69ae012e0a60f6c19494a7f1/browser.js"></script>`
+`<script defer src="https://cdn.jsdelivr.net/gh/awesomebible/verse@6ab6f6e36583be9e098abb4e3df23dc34d2b393f/browser.js"></script>`
 
 2. Füge da wo das Versbild erscheinen soll, ein img-Tag mit der Klasse (class="awb-verse") "awb-verse" ein.
 
