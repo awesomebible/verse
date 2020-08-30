@@ -12,6 +12,8 @@
 			die;
 		}else{
 			// If cache is stale
+			unlink($cachedImage);
+
 			copy('https://raw.githubusercontent.com/awesomebible/verse/master/img/'.$DayOfYear.'.jpg', $cachedImage);
 
 			header('Content-type: image/jpg;');
