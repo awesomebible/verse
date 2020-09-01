@@ -15,7 +15,7 @@ if (in_array($api_key, $keys_array)) {
         $url = $imagelist_json->$location;
 
         header('Content-type: image/jpg;');
-		header('Cache-Control: max-age 86400');
+		header('Cache-Control: max-age 31536000');
         echo file_get_contents($url);
         die;
     }
