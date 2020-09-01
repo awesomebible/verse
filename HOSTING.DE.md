@@ -9,12 +9,23 @@
 
 ### Anleitung
 1. Lade awesomeBible Verse herunter.
-  - Kopiere https://raw.githubusercontent.com/awesomebible/verse/master/index.php in eine leere Textdatei und speichere sie als index.php ab.
+  - Gehe zu https://github.com/awesomebible/verse/releases/latest und lade die "awesomeBibleVerse_Versionsnummer.zip" herunter.
 2. Öffne den FTP Client deiner Wahl und verbinde dich mit deinem Server.
-3. Navigiere in das Verzeichnis wo du awesomeBible Verse haben möchtest und lade nur die index.php hoch.
+3. Navigiere in das Verzeichnis wo du awesomeBible Verse haben möchtest und lade nun den Inhalt der .zip-Datei hoch.
 
 Empfohlen ist, awesomeBible Verse auf einer Subdomain z.B. verse.deinedomain.de zu installieren - wenn dies dein Hosting Provider zur Verfügung stellt.
 Ansonsten einfach in einen seperaten Ordner. Wenn auf deinedomain.de/ z.B. eine Wordress Installation ist dann in einem Unterverzeichnis z.B. unter deinedomain.de/verse/ die Datei ablegen.
+
+#### API Einrichtung
+Wenn du die API benutzen möchtest, bearbeite auf dem Server im Verzeichnis api/ die Datei "keys.json" und füge ein API-Schlüssel ein.
+- Einen API-Schlüssel genererieren: besuche https://duckduckgo.com/?q=uuid&t=h_&ia=answer und kopiere die lange Zeichenkette in die Datei.
+
+Nun speichere.
+
+#### API Nutzung
+1. Die API-Anfrage sollte so geformt sein: https://verse.deinedomain.de/api/?key=DEIN_API_KEY&location=BIBELBUCH_KAPITEL_UND_VERS
+
+Beispiel: `https://verse.deinedomain.de/api/?key=api-key&location=Offenbarung4,11`
 
 ## Browser.js
 ### Anleitung
