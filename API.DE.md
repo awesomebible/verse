@@ -18,3 +18,13 @@
 2. Die API-Anfrage sollte so geformt sein: https://verse.awesomebible.de/api/?key=DEIN_API_KEY&location=BIBELBUCH_KAPITEL_UND_VERS
 
 Beispiel: https://verse.awesomebible.de/api/?key=api-key&location=Offenbarung4,11
+
+
+### Error-Codes
+Wenn ein Fehler auftritt, gibt die API einen JSON-Fehlercode zurück.
+Folgende Fehler sind möglich:
+
+| Fehler  | Fehlercode  |
+|---|---|
+| Ungültiger API-Key  | 234  |
+|   |   |

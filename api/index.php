@@ -20,7 +20,8 @@ if (in_array($api_key, $keys_array)) {
         die;
     }
 }else{
-    echo "invalid API-Key. Check again, or register one at: https://awesomebible.de/kontakt/";
+    header('Content-type: application/json;');
+    echo '{"error":"234", "message":"Invalid API-Key. Check again, or register one at https://awesomebible.de/kontakt/."}';
     die;
 };
 ?>
