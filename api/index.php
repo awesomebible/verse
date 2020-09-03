@@ -8,7 +8,6 @@ $keys_array = json_decode($keys_json);
 if (in_array($api_key, $keys_array)) {
     // Get location
     $location = $_GET['location'];
-    $imageVersion = $_GET['version'];
     $imagelist = file_get_contents("https://raw.githubusercontent.com/awesomebible/verse/master/api/imagelist.json");
     $imagelist_json = json_decode($imagelist);
 
