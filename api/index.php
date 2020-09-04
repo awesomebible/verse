@@ -8,12 +8,16 @@ $keys_array = json_decode($keys_json);
 if (in_array($api_key, $keys_array)) {
     // Get location
     $location = $_GET['location'];
+
+    if(isset($_GET['version'])){
+        $version = $_GET['version'];
+    };
+
     $imagelist = file_get_contents("https://raw.githubusercontent.com/awesomebible/verse/master/api/imagelist.json");
     $imagelist_json = json_decode($imagelist);
 
     if (property_exists($imagelist_json, $location)){
         $url = $imagelist_json->$location;
-
         header('Content-type: image/jpg;');
 		header('Cache-Control: max-age 31536000');
         echo file_get_contents($url);
