@@ -19,12 +19,16 @@
 
 Beispiel: https://verse.awesomebible.de/api/?key=api-key&location=Offenbarung4,11
 
+Zurück würde dann folgendes kommen:
+```json
+{"status":"200", "content":"https://raw.githubusercontent.com/awesomebible/verse/73636ef8254f94bd632eee22509686744e574dee/img/1.jpg"}
+```
 
-### Error-Codes
-Wenn ein Fehler auftritt, gibt die API einen JSON-Fehlercode zurück.
-Folgende Fehler sind möglich:
 
-| Fehler  | Fehlercode  |
+### Status Codes
+Die API liefert bei jeder Antwort einen Status mit
+
+| Status  | Statuscode  |
 |---|---|
-| Ungültiger API-Key  | 234  |
-|   |   |
+| OK | 200 |
+| Fehler, API-Key ist falsch | 400 |
