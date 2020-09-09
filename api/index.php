@@ -24,14 +24,13 @@ if (in_array($api_key, $keys_array)) {
             header('Cache-Control: max-age 31536000');
             echo '{"status":"200", "content":"'.$url.'"}';
             die;
-        }else{
-            header('Content-type: application/json;');
+        }else if($output_format == "image"){
+            header('Content-type: image/jpeg;');
             header('Cache-Control: max-age 31536000');
-            echo '{"status":"200", "content":"'.$url.'"}';
+            echo file_get_contents($url);
             die;
         };
-    }
-}else{
+    }else{
     header('Content-type: application/json;');
     echo '{"status":"400", "content":"Invalid API-Key. Check again, or register one at https://awesomebible.de/kontakt/."}';
     die;
