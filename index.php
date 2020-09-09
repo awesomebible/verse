@@ -13,6 +13,7 @@
 		}else{
 			// If cache is stale
 			unlink($cachedImage);
+			unlink($cacheRef);
 
 			copy('https://raw.githubusercontent.com/awesomebible/verse/master/img/'.$DayOfYear.'.jpg', $cachedImage);
 
