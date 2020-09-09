@@ -26,6 +26,8 @@ Zurück würde dann folgendes kommen:
 
 Alternativ kann noch zwischen den Formaten json und img gewechselt werden.
 
+Beispiel: https://verse.awesomebible.de/api/?key=api-key&location=Offenbarung4,11&output=image
+
 Standardmäßig gibt die API immer eine JSON Antwort.
 
 ### Status Codes

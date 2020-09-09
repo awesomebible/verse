@@ -19,20 +19,21 @@ if (in_array($api_key, $keys_array)) {
 
     if (property_exists($imagelist_json, $location)){
         $url = $imagelist_json->$location;
-        if($output_format == "json" || $output_format == null)
-            header('Content-type: application/json;');
-            header('Cache-Control: max-age 31536000');
-            echo '{"status":"200", "content":"'.$url.'"}';
-            die;
-        }else if($output_format == "image"){
+        if($output_format == "image"){
             header('Content-type: image/jpeg;');
             header('Cache-Control: max-age 31536000');
             echo file_get_contents($url);
             die;
-        };
+        }else{
+            header('Content-type: application/json;');
+            header('Cache-Control: max-age 31536000');
+            echo '{"status":"200", "content":"'.$url.'"}';
+            die;
+        }
     }else{
     header('Content-type: application/json;');
     echo '{"status":"400", "content":"Invalid API-Key. Check again, or register one at https://awesomebible.de/kontakt/."}';
     die;
+    }
 };
 ?>
