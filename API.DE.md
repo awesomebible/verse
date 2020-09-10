@@ -37,3 +37,4 @@ Die API liefert bei jeder Antwort einen Status mit
 |---|---|
 | OK | 200 |
 | Fehler, API-Key ist falsch | 400 |
+| Fehler, keine Parameter angegeben | 404 |

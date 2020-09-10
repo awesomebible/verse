@@ -36,4 +36,8 @@ if (in_array($api_key, $keys_array)) {
     die;
     }
 };
+
+header('Content-type: application/json;');
+echo '{"status":"404", "content":"You probably didnt specify any parameters."}';
+die;
 ?>
