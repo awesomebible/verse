@@ -31,13 +31,13 @@ if (in_array($api_key, $keys_array)) {
             die;
         }
     }else{
+        header('Content-type: application/json;');
+        echo '{"status":"404", "content":"You probably didnt specify any parameters."}';
+        die;
+    }
+}else{
     header('Content-type: application/json;');
     echo '{"status":"400", "content":"Invalid API-Key. Check again, or register one at https://awesomebible.de/kontakt/."}';
     die;
-    }
 };
-
-header('Content-type: application/json;');
-echo '{"status":"404", "content":"You probably didnt specify any parameters."}';
-die;
 ?>
