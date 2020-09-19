@@ -2,7 +2,6 @@
 $keys_json = file_get_contents("keys.json");
 $api_key = $_GET['key'];
 $output_format = $_GET['output'];
-
 $keys_array = json_decode($keys_json);
 
 // Check if the API-Key is in keys.json
