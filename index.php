@@ -44,4 +44,6 @@
     }
 
     echo "Sorry, but my creator forbid me to do that.";
+    echo "<br>";
+    echo "Error-Code: ".$DayOfYear."";
 ?>
