@@ -10,7 +10,7 @@ Gezeigter Bibelvers: Bibelvers hier eintragen.
 (Optional) Wo man das Bild sonst noch findet: 
 
 ## Infos über dich
-Du kannst dich selbst in der CONTRIBUTORS.md eintragen, wenn du möchtest kannst du uns aber einfach nur hier einige Informationen geben, und wir tragen dich ein. :smiley:
+Du kannst dich selbst in der CONTRIBUTORS.md eintragen, wenn du möchtest, kannst du uns aber einfach nur hier einige Informationen geben, und wir tragen dich ein. :smiley:
 
 - [ ] Ja, bitte trag mich in die CONTRIBUTORS.md ein.
 
