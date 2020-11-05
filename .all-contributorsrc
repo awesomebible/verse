@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "benjaminwolkchen",
+      "name": "Benjamin Wölkchen",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/42138517?v=4",
+      "profile": "https://awesomebible.de",
+      "contributions": [
+        "projectManagement",
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "verse",
+  "projectOwner": "awesomebible",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
