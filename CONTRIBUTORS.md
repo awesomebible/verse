@@ -6,7 +6,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Danke an alle diese wunderschönen Menschen ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Danke an alle diese wunderschönen Menschen ([Emoji Key](https://allcontributors.org/docs/de/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
