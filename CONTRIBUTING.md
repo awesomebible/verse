@@ -9,7 +9,7 @@ Am besten sollte es unter einer der folgenden Lizenzen lizensiert sein:
 - [Pexels License](https://www.pexels.com/license)
 - [Pixabay License](https://pixabay.com/de/service/license/)
 - Public Domain
-- und ähnliche Lizenzen.
+- oder ähnliche Lizenzen.
 
 2. Das Bild sollte ein JPEG sein und eine .jpg Dateierweiterung haben.
 
