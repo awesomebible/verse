@@ -9,5 +9,7 @@
 ### [Mitmachen](CONTRIBUTING.md) 🧑‍🤝‍🧑
 ### [Mitwirkende](CONTRIBUTORS.md) 💖
 
+* * *
+
 ### Vorschau
 ![awesomeBible Verse Image](https://verse.awesomebible.de "Image by awesomebible.de")
