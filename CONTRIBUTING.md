@@ -26,4 +26,4 @@ Am besten sollte es unter einer der folgenden Lizenzen lizensiert sein:
 
 ![Pull Request Button](https://user-images.githubusercontent.com/42138517/98121291-65be1c00-1eaf-11eb-9946-86afd49dfaba.png)
 
-4. Schreibe etwas über die Änderung die du gemacht hast, am besten gib direkt die Quelle des Originalbilds an, wenn du das Bild selbst erstellt hast, gib deinen Namen an.
+4. Schreibe etwas über die Änderung die du gemacht hast, und fülle den Rest der Angaben aus.
