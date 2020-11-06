@@ -3,7 +3,7 @@
 ## Danke an alle die zu awesomeBible Verse beigesteuert haben! Ihr seid super! ❤️
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#mitwirkende-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Danke an alle diese wunderschönen Menschen ([Emoji Key](https://allcontributors.org/docs/de/emoji-key)):
