@@ -4,10 +4,10 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## Versbilder leicht gemacht.
 
-### [Installation](HOSTING.DE.md) 🔧
-### [Öffentliche API](API.DE.md) 🌐
-### [Mitmachen](CONTRIBUTING.md) 🧑‍🤝‍🧑
-### [Mitwirkende](CONTRIBUTORS.md) 💖
+### [Installation](HOSTING.DE.md) :wrench:
+### [Öffentliche API](API.DE.md) :globe_with_meridians:
+### [Mitmachen](CONTRIBUTING.md) :smiley:
+### [Mitwirkende](CONTRIBUTORS.md) :sparkling_heart:
 
 * * *
 
