@@ -14,4 +14,4 @@
 ### Vorschau
 ![awesomeBible Verse Image](https://verse.awesomebible.de "Image by awesomebible.de")
 
-releReleases werden durch [Conventional Release Bot](https://github.com/apps/conventional-release-bot) gemacht.
+Releases werden durch [Conventional Release Bot](https://github.com/apps/conventional-release-bot) gemacht.
