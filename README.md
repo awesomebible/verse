@@ -11,5 +11,4 @@
 
 * * *
 
-### Vorschau
-![awesomeBible Verse Image](https://verse.awesomebible.de "Image by awesomebible.de")
+### [Sieh es dir an!](https://docs.verse.awesomebible.de)
