@@ -11,4 +11,4 @@
 
 * * *
 
-### [Sieh es dir an!](https://docs.verse.awesomebible.de)
+### [Sieh es dir an!](https://dev.awesomebible.de/verse/)
