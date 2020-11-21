@@ -27,3 +27,8 @@ Am besten sollte es unter einer der folgenden Lizenzen lizensiert sein:
 ![Pull Request Button](https://user-images.githubusercontent.com/42138517/98121291-65be1c00-1eaf-11eb-9946-86afd49dfaba.png)
 
 4. Schreibe etwas über die Änderung die du gemacht hast, und fülle den Rest der Angaben aus.
+
+# Code beisteuern
+Wenn du Features hinzufügen willst, oder einfach nur meinen schrecklichen Code reparieren willst, gerne!
+
+Wie oben gezeigt, forke das Repository und nimm die Änderungen an dem Code vor.
