@@ -1,13 +1,11 @@
 name: Test Pull Request
-
 on: [push, pull_request]
-
-  steps:
+steps:
 
       - name: Checkout Repository
-      uses: actions/checkout@v2
-      - name: Install Environment
-      uses: 
+uses: actions/checkout@v2
+
+- name: Install Environment
 
 runs:
   using: 'docker'
