@@ -11,4 +11,5 @@
 
 * * *
 
-### [Sieh dir ein Beispiel an! :eyes:](https://dev.awesomebible.de/verse/)
+### Vorschau
+![awesomeBible Verse Bild](https://verse.awesomebible.de)
