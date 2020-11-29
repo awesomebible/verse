@@ -1,4 +1,4 @@
-- [ ] Ich habe den Leitfaden für Beiträge gelesen und bin damit einverstanden.
+- [ ] Ich habe den [Leitfaden für Beiträge](https://awesomep2.wordpress.com/verse/mitmachen/) gelesen und bin damit einverstanden.
 
 ## Infos übers Bild
 Urheber: Urheber hier eintragen.
