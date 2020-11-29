@@ -9,6 +9,6 @@ Gezeigter Bibelvers: Bibelvers hier eintragen.
 
 (Optional) Wo man das Bild sonst noch findet: 
 
-### Mochtetest du in die CONTRIBUTORS.md eingetragen, und als Mitwirkender gelistet werden?
+### Mochtetest du in [hier](https://awesomep2.wordpress.com/verse/mitwirkende/) als Mitwirkender gelistet werden?
 - [ ] Ja
 - [ ] Nein
