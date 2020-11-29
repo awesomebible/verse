@@ -1,6 +1,6 @@
 ---
 name: Fehlerbericht
-about: Erstelle einen Bericht, der uns bei der Verbesserung hilft.
+about: Erstelle einen Bericht, der uns bei der Verbesserung des Projekts hilft.
 title: "[BUG]"
 labels: bug
 assignees: ''
