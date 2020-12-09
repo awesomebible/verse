@@ -1,6 +1,6 @@
 # awesomeBible Verse 🖼️
 ## Versbilder leicht gemacht.
-### Dokumentation ist [hier](https://abiblep2.wordpress.com/verse/) zu finden.
+### Dokumentation ist [hier](https://awesomep2.wordpress.com/verse/) zu finden.
 
 ### [Installation](https://abiblep2.wordpress.com/verse/installation/) :wrench:
 ### [Öffentliche API](https://abiblep2.wordpress.com/verse/offentliche-api/) :globe_with_meridians:
