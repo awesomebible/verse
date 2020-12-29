@@ -49,4 +49,4 @@ Beispiel: `https://verse.deinedomain.de/api/?key=api-key&location=Offenbarung4,1
 
 ## Node.js Server
 
-Coming soon. [Lies, wie du helfen kannst](Mitmachen%20%F0%9F%98%80%205184df93afc14d7cb5656f9f9cd7a5a9.md).
+Coming soon. [Lies, wie du helfen kannst](docs/Mitmachen.md).

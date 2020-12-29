@@ -10,4 +10,4 @@ Danke an alle die zu awesomeBible Verse beigesteuert haben! Ihr seid super! ❤�
 
 [YouVersion Team](https://github.com/youversion/)
 
-Wenn du mitarbeiten möchtest, schau dir die Seite „[Mitmachen]()“ an.
+Wenn du mitarbeiten möchtest, schau dir die Seite „[Mitmachen](docs/Mitmachen.md)“ an.
