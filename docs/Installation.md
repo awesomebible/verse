@@ -8,8 +8,6 @@
 - FTP Server / Zugang
 - FTP Client: [Filezilla](https://filezilla-project.org/), [WinSCP](https://winscp.net/eng/docs/lang:de)
 
-[https://media.giphy.com/media/prT19niRzVj38JZ5vS/giphy.mp4](https://media.giphy.com/media/prT19niRzVj38JZ5vS/giphy.mp4)
-
 1. Lade awesomeBible Verse herunter.
 - Gehe zu [https://github.com/awesomebible/verse/releases/latest](https://github.com/awesomebible/verse/releases/latest) und lade die „awesomeBibleVerse_Versionsnummer.zip“ herunter.
 1. Öffne den FTP Client deiner Wahl und verbinde dich mit deinem Server.
