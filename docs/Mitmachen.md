@@ -17,13 +17,13 @@ Damit ein Versbild hinzugefügt werden kann, muss es mehrere Bedingungen erfüll
 
 ## Schritte um ein Versbild hinzuzufügen
 
-1. Forke das [GitHub-Repository](https://github.com/awesomebible/verse). Zum forken klicke [hier](https://github.com/awesomebible/verse/fork) oder klicke in der oberen Leiste auf „Fork“. Nun sollte der
+1. Forke das [Verse-Data GitHub-Repository](https://github.com/awesomebible/verse-data). Zum forken klicke [hier](https://github.com/awesomebible/verse-data/fork) oder gehe [zum Repository](https://github.com/awesomebible/verse-data) und klicke in der oberen Leiste auf „Fork“. Nun sollte der
 Forking-Prozess automatisch beginnen, eventuell musst du noch auswählen
 in welches Benutzerkonto du forken willst.
 2. Füge dein Versbild hinzu. Benenne es nach einer Zahl zwischen 1 und 366.
 3. Erstelle einen Pull-Request indem du auf Pull Request klickst.
 
-![https://awesomep2.files.wordpress.com/2020/11/98121291-65be1c00-1eaf-11eb-9946-86afd49dfaba.png](https://awesomep2.files.wordpress.com/2020/11/98121291-65be1c00-1eaf-11eb-9946-86afd49dfaba.png)
+![pr](https://user-images.githubusercontent.com/42138517/103939864-c296b680-512c-11eb-98b0-b9943be463c2.png)
 
 1. Schreibe etwas über die Änderung, die du gemacht hast, und fülle den Rest der Angaben aus.
 
@@ -31,6 +31,6 @@ in welches Benutzerkonto du forken willst.
 
 Wenn du Features hinzufügen willst, oder einfach nur meinen schrecklichen Code reparieren willst, gerne!
 
-Wie oben gezeigt, forke das Repository und nimm die Änderungen an dem Code vor.
+Forke diesmal das verse-Repository ([hier](https://github.com/awesomebible/verse/fork)) und nimm die Änderungen an dem Code vor.
 
 Erstelle dann einen Pull-Request in dem du deine Änderungen erklärst.
