@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-- [ ] Ich habe den [Leitfaden für Beiträge](https://github.com/awesomebible/verse/blob/master/CONTRIBUTING.md) gelesen und bin damit einverstanden.
+- [ ] Ich habe den [Leitfaden für Beiträge](https://github.com/awesomebible/verse/blob/master/docs/Mitmachen.md) gelesen und bin damit einverstanden.
 
 ## Infos übers Bild
 Urheber: Urheber hier eintragen.
