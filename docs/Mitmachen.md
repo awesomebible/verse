@@ -17,7 +17,7 @@ Damit ein Versbild hinzugefügt werden kann, muss es mehrere Bedingungen erfüll
 
 ## Schritte um ein Versbild hinzuzufügen
 
-1. Forke das [Verse-Data GitHub-Repository](https://github.com/awesomebible/verse-data). Zum forken klicke [hier](https://github.com/awesomebible/verse-data/fork) oder gehe [zum Repository](https://github.com/awesomebible/verse-data) und klicke in der oberen Leiste auf „Fork“. Nun sollte der
+1. Forke das [Verse GitHub-Repository](https://github.com/awesomebible/verse). Zum forken klicke [hier](https://github.com/awesomebible/verse/fork) oder klicke in der oberen Leiste auf „Fork“. Nun sollte der
 Forking-Prozess automatisch beginnen, eventuell musst du noch auswählen
 in welches Benutzerkonto du forken willst.
 2. Füge dein Versbild hinzu. Benenne es nach einer Zahl zwischen 1 und 366.
@@ -31,6 +31,6 @@ in welches Benutzerkonto du forken willst.
 
 Wenn du Features hinzufügen willst, oder einfach nur meinen schrecklichen Code reparieren willst, gerne!
 
-Forke diesmal das verse-Repository ([hier](https://github.com/awesomebible/verse/fork)) und nimm die Änderungen an dem Code vor.
+Forke wieder das verse-Repository ([hier](https://github.com/awesomebible/verse/fork)) und nimm die Änderungen an dem Code vor.
 
 Erstelle dann einen Pull-Request in dem du deine Änderungen erklärst.
