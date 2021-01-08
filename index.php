@@ -12,7 +12,7 @@
 			if(file_exists($cachedImage)){unlink($cachedImage);};
 			if(file_exists($cacheRef)){unlink($cacheRef);};
 
-			copy('https://raw.githubusercontent.com/awesomebible/verse-data/master/'.$DayOfYear.'.jpg', $cachedImage);
+			copy('https://raw.githubusercontent.com/awesomebible/verse/master/img/'.$DayOfYear.'.jpg', $cachedImage);
 
 			header('Content-type: image/jpg;');
 			header('Cache-Control: max-age 86400');
