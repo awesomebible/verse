@@ -27,7 +27,7 @@ Verzeichnis api/ die Datei „keys.json“ und füge ein API-Schlüssel ein.
 
 Nun speichere.
 
-![https://awesomep2.files.wordpress.com/2020/11/awesomebible_verse_keys.png](https://awesomep2.files.wordpress.com/2020/11/awesomebible_verse_keys.png)
+![awesomeBible Verse API Schlüssel](https://user-images.githubusercontent.com/42138517/108625419-24944c80-744b-11eb-818d-2adc44cf349c.png)
 
 ### API Nutzung
 
