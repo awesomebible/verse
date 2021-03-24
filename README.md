@@ -1,5 +1,5 @@
 # awesomeBible Verse 🖼️
-## Versbilder leicht gemacht. | Umgezogen zu [Codeberg](https://codeberg.org/awesomebible/verse).
+## Versbilder leicht gemacht.
 
 ### [Installation](docs/Installation.md) :wrench:
 ### [Öffentliche API](docs/Öffentliche_API.md) :globe_with_meridians:
