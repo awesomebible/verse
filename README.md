@@ -1,4 +1,4 @@
-# awesomeBible Verse 🖼️ - Umgezogen zu [Codeberg](https://codeberg.org/awesomebible/verse)
+# awesomeBible Verse 🖼️
 ## Versbilder leicht gemacht.
 
 ### [Installation](docs/Installation.md) :wrench:
