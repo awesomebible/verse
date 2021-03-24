@@ -1,4 +1,4 @@
-# awesomeBible Verse 🖼️
+# awesomeBible Verse 🖼️ - Jetzt auf [Codeberg](https://codeberg.org/awesomebible/)
 ## Versbilder leicht gemacht.
 
 ### [Installation](docs/Installation.md) :wrench:
