@@ -7,5 +7,5 @@ var day = Math.floor(diff / oneDay);
  var x = document.getElementsByClassName("awb-verse");
   var i;
   for (i = 0; i < x.length; i++) {
-    x[i].src = "https://raw.githubusercontent.com/awesomebible/verse/master/img/"+day+".jpg";
+    x[i].src = "https://codeberg.org/awesomeBible/verse/raw/branch/master/img/"+day+".jpg";
   }
