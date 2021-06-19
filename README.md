@@ -1,10 +1,10 @@
 # awesomeBible Verse 🖼️
 ## Versbilder leicht gemacht.
 
-### [Installation](https://github.com/awesomebible/verse/wiki/Installation) :wrench:
-### [Öffentliche API](https://github.com/awesomebible/verse/wiki/Öffentliche-API) :globe_with_meridians:
-### [Mitmachen](https://github.com/awesomebible/verse/wiki/Mitmachen) :smiley:
-### [Mitwirkende](https://github.com/awesomebible/verse/wiki/Mitwirkende) :sparkling_heart:
+### [Installation](https://codeberg.org/awesomeBible/verse/wiki/Installation) :wrench:
+### [Öffentliche API](https://codeberg.org/awesomeBible/verse/wiki/Öffentliche-API) :globe_with_meridians:
+### [Mitmachen](https://codeberg.org/awesomeBible/verse/wiki/Mitmachen) :smiley:
+### [Mitwirkende](https://codeberg.org/awesomeBible/verse/wiki/Mitwirkende) :sparkling_heart:
 ### [Community](https://discord.awesomebible.de/) :unicorn:
 
 * * *
