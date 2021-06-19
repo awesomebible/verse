@@ -12,7 +12,7 @@
 			if(file_exists($cachedImage)){unlink($cachedImage);};
 			if(file_exists($cacheRef)){unlink($cacheRef);};
 
-			copy('https://codeberg.org/awesomeBible/verse/raw/branch/master/img/'.$DayOfYear.'.jpg', $cachedImage);
+			copy('https://verse.awesomebible.de/img/2022/'.$DayOfYear.'.jpg', $cachedImage);
 
 			header('Content-type: image/jpg;');
 			header('Cache-Control: max-age 86400');
