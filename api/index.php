@@ -1,11 +1,4 @@
 <?php
-// Check if the API-Key is in keys.json
-$keys_json = file_get_contents("keys.json");
-$api_key = $_GET['key'];
-$keys_array = json_decode($keys_json);
-$version = "url";
-
-if (in_array($api_key, $keys_array)) {
     // Get location
     $location = $_GET['location'];
     $output = $_GET['output'];
@@ -15,7 +8,7 @@ if (in_array($api_key, $keys_array)) {
         $version = $_GET['version'];
     };
 
-    $imagelist = file_get_contents("https://raw.githubusercontent.com/awesomebible/verse/master/api/v1/".$location.".json");
+    $imagelist = file_get_contents("https://codeberg.org/awesomeBible/verse/raw/branch/master/api/v1/".$location.".json");
     $imagelist_json = json_decode($imagelist);
 
     $url = $imagelist_json->$version;
@@ -35,7 +28,6 @@ if (in_array($api_key, $keys_array)) {
     header('Content-type: application/json;');
     echo '{"status":"404", "content":"You probably didnt specify any parameters."}';
     die; 
-}
 }else{
     header('Content-type: application/json;');
     echo '{"status":"400", "content":"Invalid API-Key. Check again, or register one at https://awesomebible.de/kontakt/."}';
