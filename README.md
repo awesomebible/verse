@@ -5,7 +5,7 @@
 ### [Öffentliche API](https://codeberg.org/awesomeBible/verse/wiki/Öffentliche-API) :globe_with_meridians:
 ### [Mitmachen](https://codeberg.org/awesomeBible/verse/wiki/Mitmachen) :smiley:
 ### [Mitwirkende](https://codeberg.org/awesomeBible/verse/wiki/Mitwirkende) :sparkling_heart:
-### [Community](https://discord.awesomebible.de/) :unicorn:
+### [Community](https://matrix.to/#/!elLniVbXHvlPFsjsqW:nitro.chat?via=nitro.chat) :unicorn:
 
 * * *
 
