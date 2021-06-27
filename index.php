@@ -1,5 +1,6 @@
 <?php
 	$DayOfYear = date('z') + 1;
+    $Year = date("Y");
 	$cacheRef = "cacheFile.txt"; // Edit this to the exact file path for your install of verse + "cacheFile.txt"
     $cachedImage = "cachedImage.jpg"; // Edit this to the exact file path for your install of verse + "cachedImage.jpg"
     
@@ -12,7 +13,7 @@
 			if(file_exists($cachedImage)){unlink($cachedImage);};
 			if(file_exists($cacheRef)){unlink($cacheRef);};
 
-			copy('https://codeberg.org/awesomeBible/verse/raw/branch/master/img/'.$DayOfYear.'.jpg', $cachedImage);
+			copy("https://verse.awesomebible.de/img/".$Year."/".$DayOfYear.".jpg", "cachedImage.jpg");
 
 			header('Content-type: image/jpg;');
 			header('Cache-Control: max-age 86400');
