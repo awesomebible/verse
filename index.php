@@ -5,6 +5,7 @@
     $cachedImage = "cachedImage.jpg"; // Edit this to the exact file path for your install of verse + "cachedImage.jpg"
     
     function cacheStale(){
+        global $Year;
         global $DayOfYear;
         global $cacheRef;
         global $cachedImage;
