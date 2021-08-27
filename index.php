@@ -30,7 +30,7 @@
         global $cachedImage;
         	// If cache is fresh
 			header('Content-type: image/jpg;');
-			header('Cache-Control: max-age 86400');
+			header('Cache-Control: max-age=86400');
             if(file_exists($cachedImage)){
 			echo file_get_contents($cachedImage);
             die;
