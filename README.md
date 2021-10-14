@@ -11,7 +11,7 @@ Um awesomeBible Verse zu nutzen und den Vers des Tages einzubinden, musst du nur
 ### [Öffentliche API](https://codeberg.org/awesomeBible/verse/wiki/Öffentliche-API) :globe_with_meridians:
 ### [Mitmachen](https://codeberg.org/awesomeBible/verse/wiki/Mitmachen) :smiley:
 ### [Mitwirkende](https://codeberg.org/awesomeBible/verse/wiki/Mitwirkende) :sparkling_heart:
-### [Community](https://matrix.to/#/#awesomeBible:stux.chat?via=stux.chat&via=matrix.org) :unicorn:
+### [Community](https://matrix.to/#/#awesomeBible:matrix.org) :unicorn:
 
 * * *
 
