@@ -18,9 +18,11 @@
                 header('Content-type: image/jpg;');
 			    header('Cache-Control: max-age=86400');
                 print($url);
+                die;
             }else{
                 header('Content-type: application/json;');
                 echo '{"status":"200", "content":"'.$url.'"}';
+                die;
             }
         }
     }
