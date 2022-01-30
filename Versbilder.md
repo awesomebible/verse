@@ -8,7 +8,7 @@ Unten kannst du einen Mirror auswählen.
 - [awesomeBible](https://verse.awesomebible.de/releases/2022.zip)
 - [GitHub](https://github.com/awesomebible/verse/releases/download/img-2022/2022.zip)
 - [Sourceforge](https://sourceforge.net/projects/awesomebible-verse/files/2022.zip/download)
-- [OSDN]()
+- [OSDN](https://osdn.net/projects/awesomebible-verse/downloads/76604/2022.zip/)
 
 # 2021
 - [awesomeBible](https://verse.awesomebible.de/releases/2021.zip)
