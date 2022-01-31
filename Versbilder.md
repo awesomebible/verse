@@ -5,13 +5,13 @@ Die Bilder sind auf Servern gehostet, die awesomeBible gehören. Sie werden aber
 
 Unten kannst du einen Mirror auswählen.
 ## 2022
-- [awesomeBible](https://verse.awesomebible.de/releases/2022.zip)
 - [GitHub](https://github.com/awesomebible/verse/releases/download/img-2022/2022.zip)
-- [Sourceforge](https://sourceforge.net/projects/awesomebible-verse/files/2022.zip/download)
 - [OSDN](https://osdn.net/projects/awesomebible-verse/downloads/76604/2022.zip/)
+- [Sourceforge](https://sourceforge.net/projects/awesomebible-verse/files/2022.zip/download)
+- [awesomeBible](https://verse.awesomebible.de/releases/2022.zip)
 
 ## 2021
-- [awesomeBible](https://verse.awesomebible.de/releases/2021.zip)
 - [GitHub](https://github.com/awesomebible/verse/releases/download/img-2021/2021.zip)
-- [Sourceforge](https://sourceforge.net/projects/awesomebible-verse/files/2021.zip/download)
 - [OSDN](https://osdn.net/projects/awesomebible-verse/downloads/76603/2021.zip/)
+- [Sourceforge](https://sourceforge.net/projects/awesomebible-verse/files/2021.zip/download)
+- [awesomeBible](https://verse.awesomebible.de/releases/2021.zip)
