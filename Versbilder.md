@@ -7,7 +7,7 @@ Unten kannst du einen Mirror auswählen.
 ## 2022
 - [GitHub](https://github.com/awesomebible/verse/releases/download/img-2022/2022.zip)
 - [OSDN](https://osdn.net/projects/awesomebible-verse/downloads/76604/2022.zip/)
-- [IFPS](https://gateway.ipfs.io/ipfs/Qmc23zbR2aW6txLmD73RhfxTpmnbvjV54BsEG68zsuwYsw?filename=2022.zip)
+- [IPFS](https://gateway.ipfs.io/ipfs/Qmc23zbR2aW6txLmD73RhfxTpmnbvjV54BsEG68zsuwYsw?filename=2022.zip)
 - [Sourceforge](https://sourceforge.net/projects/awesomebible-verse/files/2022.zip/download)
 - [awesomeBible](https://verse.awesomebible.de/releases/2022.zip)
 
