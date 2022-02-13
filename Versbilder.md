@@ -7,13 +7,13 @@ Unten kannst du einen Mirror auswählen.
 ## 2022
 - [GitHub](https://github.com/awesomebible/verse/releases/download/img-2022/2022.zip)
 - [OSDN](https://osdn.net/projects/awesomebible-verse/downloads/76604/2022.zip/)
-- [Storj](https://link.eu1.storjshare.io/jvzqlldmbxmkfsu5lnwutwhii2sq/verse-releases%2F2022.zip)
+- [IFPS](https://ipfs.io/ipfs/Qmc23zbR2aW6txLmD73RhfxTpmnbvjV54BsEG68zsuwYsw?filename=2022.zip)
 - [Sourceforge](https://sourceforge.net/projects/awesomebible-verse/files/2022.zip/download)
 - [awesomeBible](https://verse.awesomebible.de/releases/2022.zip)
 
 ## 2021
 - [GitHub](https://github.com/awesomebible/verse/releases/download/img-2021/2021.zip)
 - [OSDN](https://osdn.net/projects/awesomebible-verse/downloads/76603/2021.zip/)
-- [Storj](https://link.eu1.storjshare.io/jvk4sp6kfctv6b4q54wcztavlfea/verse-releases%2F2021.zip)
+- [IPFS](https://ipfs.io/ipfs/Qmai2cqMgiUB2sVH9BfSDyHRxbMWFCEzMApoPLfP3iAQDv?filename=2021.zip)
 - [Sourceforge](https://sourceforge.net/projects/awesomebible-verse/files/2021.zip/download)
 - [awesomeBible](https://verse.awesomebible.de/releases/2021.zip)
