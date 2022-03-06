@@ -1,5 +1,6 @@
 # awesomeBible Verse 🖼️
 ## Versbilder leicht gemacht.
+[![](https://img.shields.io/matrix/awesomebible-verse:matrix.org?color=orange&logo=matrix)](https://matrix.to/#/#awesomebible-verse:matrix.org)
 
 awesomeBible Verse hat zum Ziel Versbilder auf eine einfache Weise zur Verfügung zu stellen.
 
