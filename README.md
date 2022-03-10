@@ -15,7 +15,6 @@ Um ein spezifisches Bild zu finden, kann der [Versepicker](https://versepicker.n
 ### [Mitmachen](https://codeberg.org/awesomeBible/verse/wiki/Mitmachen) :smiley:
 ### [Mitwirkende](https://codeberg.org/awesomeBible/verse/wiki/Mitwirkende) :sparkling_heart:
 ### [Community](https://matrix.to/#/#awesomeBible:matrix.org) :unicorn:
-![](https://img.shields.io/matrix/awesomebible-verse:matrix.org)
 
 * * *
 
