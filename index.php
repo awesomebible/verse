@@ -17,7 +17,6 @@
 			copy("https://verse.awesomebible.de/img/".$Year."/".$DayOfYear.".jpg", "cachedImage.jpg");
 
 			header('Content-type: image/jpg;');
-			header('Cache-Control: max-age 86400');
 			echo file_get_contents($cachedImage);
 
 			$myfile = fopen($cacheRef, "w") or die("Unable to open file!");
@@ -30,7 +29,6 @@
         global $cachedImage;
         	// If cache is fresh
 			header('Content-type: image/jpg;');
-			header('Cache-Control: max-age=86400');
             if(file_exists($cachedImage)){
 			echo file_get_contents($cachedImage);
             die;
