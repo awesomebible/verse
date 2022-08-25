@@ -10,9 +10,11 @@ labels:
 ---
 
 <!-- 
-Bitte lies alles so sorgfälltig wie möglich durch und fülle das Issue so weit wie dir möglich aus. 
+Bitte lies alles so sorgfältig wie möglich durch und fülle das Issue so weit wie dir möglich aus. 
+
 Du kannst Checkboxen anhaken, indem du zwischen die zwei eckigen Klammern ein "x" setzt. (- [ ] wird zu - [x])
 -->
+
 
 ## Bildrechte
 - [ ] Ich habe das Bild selbst erstellt. Mir gehören alle Bildrechte.
