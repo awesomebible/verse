@@ -6,13 +6,13 @@ awesomeBible Verse hat zum Ziel Versbilder auf eine einfache Weise zur Verfügun
 
 Um awesomeBible Verse zu nutzen und den Vers des Tages einzubinden, musst du nur ``https://verse.awesomebible.de`` als Bildquelle angeben.
 
-Um ein spezifisches Bild zu finden, kann der [Versepicker](https://versepicker.netlify.app/) benutzt werden: [Zum Verspicker](https://versepicker.netlify.app/)
+Um ein spezifisches Bild zu finden, kann der [Versepicker](https://versepicker.netlify.app/) benutzt werden: [Zum Verspicker](https://versepicker.netlify.app/).
 
 ![Animation vom einbinden von awesomeBible Verse in einem WordPress Post](https://codeberg.org/awesomeBible/verse/raw/branch/readme-images/preview.gif)
 
-### [Installation](https://docs.awesomebible.de/de/latest/verse-install.html) :wrench:
-### [Öffentliche API](https://docs.awesomebible.de/de/latest/verse-public-api.html) :globe_with_meridians:
-### [Mitmachen](https://docs.awesomebible.de/de/latest/verse-contribute.html) :smiley:
+### [Installation](https://codeberg.org/awesomeBible/verse/wiki/Installation) :wrench:
+### [Öffentliche API](https://codeberg.org/awesomeBible/verse/wiki/%C3%96ffentliche-API) :globe_with_meridians:
+### [Mitmachen](https://codeberg.org/awesomeBible/verse/wiki/Mitmachen) :smiley:
 ### [Mitwirkende](https://codeberg.org/awesomeBible/verse/wiki/Mitwirkende) :sparkling_heart:
 ### [Community](https://matrix.to/#/#awesomeBible:matrix.org) :unicorn:
 
