@@ -19,4 +19,4 @@ Um ein spezifisches Bild zu finden, kann der [Versepicker](https://versepicker.n
 * * *
 
 ### Vorschau :star2:
-[![awesomeBible Verse Bild](https://images.weserv.nl/?url=verse.awesomebible.de&maxage=1d&w=640&output=webp)](https://verse.awesomebible.de/)
+[![awesomeBible Verse Bild](https://wsrv.nl/?url=verse.awesomebible.de&maxage=1d&w=640&output=webp)](https://verse.awesomebible.de/)
