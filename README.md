@@ -6,7 +6,7 @@ awesomeBible Verse hat zum Ziel Versbilder auf eine einfache Weise zur Verfügun
 
 Um awesomeBible Verse zu nutzen und den Vers des Tages einzubinden, musst du nur ``https://verse.awesomebible.de`` als Bildquelle angeben.
 
-Um ein spezifisches Bild zu finden, kann der [Versepicker](https://versepicker.netlify.app/) benutzt werden: [Zum Verspicker](https://versepicker.netlify.app/).
+Um ein spezifisches Bild zu finden, kann der [Versepicker](https://versepicker.netlify.app/) benutzt werden: [Zum Verspicker](https://versepicker.awesomebible.de/).
 
 ![Animation vom einbinden von awesomeBible Verse in einem WordPress Post](https://codeberg.org/awesomeBible/verse/raw/branch/readme-images/preview.gif)
 
