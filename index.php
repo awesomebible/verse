@@ -1,15 +1,17 @@
 <?php
 	$DayOfYear = date('z') + 1;
     $Year = date("Y");
-    $fileExtension = ".webp";
-    $fileMimeType = "image/jpg";
+    $fileExtension = ".jpg"; // The file extension of the images with leading dot.
+    $fileMimeType = "image/jpg"; // The mime type of the image files, look here: https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
+    $baseURL = "https://verse.awesomebible.de/img/"; # URL that points to the root of the image directory, with a trailing slash.
 	$cacheRef = "cacheFile.txt"; // Edit this to the exact file path for your install of verse + "cacheFile.txt"
-    $cachedImage = "cachedImage.jpg"; // Edit this to the exact file path for your install of verse + "cachedImage"
-    
+    $cachedImage = "cachedImage.jpg"; // Edit this to the exact file path for your install of verse + "cachedImage.fileExt"
+
     function cacheStale(){
         global $Year;
         global $DayOfYear;
         global $cacheRef;
+        global $baseURL;
         global $cachedImage;
         global $fileExtension;
         global $fileMimeType;
@@ -18,7 +20,7 @@
 			if(file_exists($cachedImage)){unlink($cachedImage);};
 			if(file_exists($cacheRef)){unlink($cacheRef);};
 
-			copy("https://verse.awesomebible.de/img/".$Year."/".$DayOfYear.$fileExtension, $cachedImage);
+			copy($baseURL.$Year."/".$DayOfYear.$fileExtension, $cachedImage);
 
             header('Content-type: '.$fileMimeType.';');
 			echo file_get_contents($cachedImage);
@@ -51,4 +53,5 @@
     echo "Sorry, but my creator forbid me to do that.";
     echo "<br>";
     echo "Error-Code: ".$DayOfYear."";
+    die();
 ?>
