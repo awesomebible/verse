@@ -8,7 +8,7 @@ Um awesomeBible Verse zu nutzen und den Vers des Tages einzubinden, musst du nur
 
 Um ein spezifisches Bild zu finden, kann der [Versepicker](https://versepicker.netlify.app/) benutzt werden: [Zum Verspicker](https://versepicker.awesomebible.de/).
 
-![Animation vom einbinden von awesomeBible Verse in einem WordPress Post](https://codeberg.org/awesomeBible/verse/raw/branch/readme-images/preview.gif)
+![Animation vom einbinden von awesomeBible Verse in einem WordPress Post](https://cdn.jsdelivr.net/gh/awesomebible/verse@readme-images/preview.gif)
 
 ### [Installation](https://codeberg.org/awesomeBible/verse/wiki/Installation) :wrench:
 ### [Öffentliche API](https://codeberg.org/awesomeBible/verse/wiki/%C3%96ffentliche-API) :globe_with_meridians:
