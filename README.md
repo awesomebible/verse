@@ -1,6 +1,6 @@
 # awesomeBible Verse 🖼️
 ## Versbilder leicht gemacht.
-[![](https://img.shields.io/badge/Lizenz-AGPLv3-orange?cacheSeconds=31536000)](https://github.com/awesomeBible/verse/src/branch/main/LICENSE) [![Discord](https://img.shields.io/discord/940887747130957844?color=5865F2)](https://chat.awesomebible.de)
+[![](https://img.shields.io/badge/Lizenz-AGPLv3-orange?cacheSeconds=31536000)](https://github.com/awesomeBible/verse/src/branch/main/LICENSE) [![Discord](https://img.shields.io/discord/940887747130957844?color=5865F2)](https://chat.awesomebible.de) [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/t9wi.svg)](https://status.awesomebible.de/?utm_source=status_badge)
 
 awesomeBible Verse hat zum Ziel Versbilder auf eine einfache Weise zur Verfügung zu stellen.
 
