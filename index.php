@@ -49,7 +49,7 @@
         };
     };
 
-    if(file_get_contents($cacheRef) == $DayOfYear){
+    if(file_get_contents($cacheRef) == $DayOfYear && file_exists($cachedImage.$fileExtension)){
         cacheFresh();
     }else{
         cacheStale();
