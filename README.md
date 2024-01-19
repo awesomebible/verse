@@ -8,7 +8,8 @@ Um awesomeBible Verse zu nutzen und den Vers des Tages einzubinden, musst du nur
 
 Um ein spezifisches Bild zu finden, kann der [Versepicker](https://versepicker.awesomebible.de/) benutzt werden.
 
-![Animation vom einbinden von awesomeBible Verse in einem WordPress Post](https://github-production-user-asset-6210df.s3.amazonaws.com/42138517/265221922-84cbfc45-24f7-4f52-9f9a-8dd206b184bb.gif)
+![Animation vom Einbinden von awesomeBible Verse in einem WordPress Post](https://github.com/awesomebible/verse/assets/42138517/3fd88c4c-31a5-4b33-8fef-fa71d4408132)
+
 
 ### [Installation](https://docs.awesomebible.de/verse/installation/) :wrench:
 ### [Javascript Bibliothek](https://docs.awesomebible.de/verse/verse-js/)
