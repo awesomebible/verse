@@ -8,7 +8,7 @@
         $fileExtension = ".jpg"; // The file extension of the images with leading dot.
         $fileMimeType = "image/jpg"; // The mime type of the image files, look here: https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types    
     }
-    $baseURL = "https://verse.awesomebible.de/img/"; # URL that points to the root of the image directory, with a trailing slash.
+    $baseURL = "./img/"; # URL that points to the root of the image directory, with a trailing slash.
 	$cacheRef = "cacheFile.txt"; // Edit this to the exact file path for your install of verse + "cacheFile.txt"
     $cachedImage = "cachedImage"; // Edit this to the exact file path for your install of verse + "cachedImage"
 
